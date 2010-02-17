@@ -3,6 +3,8 @@
 // @namespace      http://irae.pro.br/userscripts/
 // @description    Linkfy issue numbers in github commit messages.
 // @include        http://github.com/jquery/jquery/commit*
+// @include        http://github.com/jquery/jquery/tree*
+// @include        http://github.com/jquery/jquery/blob*
 // ==/UserScript==
 
 // Some simple functions to find elements.
