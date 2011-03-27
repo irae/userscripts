@@ -24,11 +24,17 @@ function initMemeCloseVideo($) {
 };
 
 function waitjQuery() {
-	jQuery = unsafeWindow.jQuery;
-	if(!jQuery) {
+	jQuery = unsafeWindow && unsafeWindow.jQuery || window.jQuery;
+	if(typeof jQuery == "undefined") {
 		setTimeout(waitjQuery,200);
 	} else {
 		initMemeCloseVideo(jQuery);
 	}
 }
-waitjQuery();
+if(window.google) {
+	var script = document.createElement('script');
+	script.appendChild(document.createTextNode('('+ initMemeCloseVideo + ' ; initMemeCloseVideo(); )();'));
+	(document.body || document.head || document.documentElement).appendChild(script);
+} else {
+	waitjQuery();
+}
