@@ -2,7 +2,8 @@
 // @name           Usable GoPlan Titles
 // @namespace      pro.irae.userscripts
 // @description    I want to close the ticket from terminal, my tabs are visible but I can't see the ticket number without focusing firefox and selecting the tab. This script prepend the number to document title.
-// @include        http://ipanemax.goplanapp.com/inrlife/ticket/view/*
+// @include        http://*.goplanapp.com/*/ticket/view/*
+// @include        https://*.goplanapp.com/*/ticket/view/*
 // ==/UserScript==
 
 (function(){
