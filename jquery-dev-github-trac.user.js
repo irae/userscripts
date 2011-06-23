@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           jQuery Dev Github Trac Links
-// @namespace      http://irae.pro.br/userscripts/
+// @namespace      pro.irae.userscripts
 // @description    Linkfy issue numbers in github commit messages.
 // @include        http://github.com/jquery/jquery/commit*
 // @include        http://github.com/jquery/jquery/tree*
