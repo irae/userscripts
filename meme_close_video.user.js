@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name			Meme Close Video
-// @description		Adds a border and close button to any video box. Intended to stop downloading a video when you no longer whants to watch it.
+// @description		[OUTDATED, don't install] Adds a border and close button to any video box. Intended to stop downloading a video when you no longer whants to watch it.
 // @namespace      pro.irae.userscripts
 // @include			http://meme.yahoo.com/*
 // ==/UserScript==
